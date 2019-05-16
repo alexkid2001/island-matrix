@@ -1,0 +1,20 @@
+td {
+    background-color: blue;
+    padding: 10px 15px;
+    border: none;
+}
+td.color-1 {
+    background-color: yellow;
+}
+
+td.color-2 {
+    background-color: yellowgreen;
+}
+
+td.color-3 {
+    background-color: burlywood;
+}
+
+td.color-4 {
+    background-color: green;
+}

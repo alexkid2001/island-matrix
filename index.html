@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>TEST. Task 2</title>
+</head>
+<body>
+    <div class="matrix">
+        <table>
+            <tr v-for="(row, i) in matrix">
+                <td v-for="(cell, j) in row"  :class="('color-'+colorMatrix[i][j])">
+                    {{ cell }}
+                </td>
+            </tr>
+
+        </table>
+        <hr>
+        Количество островов {{ islandCnt }}
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
